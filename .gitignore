@@ -1,0 +1,27 @@
+# Eclipse IDE files (optional to ignore, but recommended to keep repository clean)
+.classpath
+.project
+.settings/
+
+# Build and deployment output
+build/
+bin/
+target/
+*.class
+*.war
+*.ear
+*.jar
+
+# User-uploaded files (ignore actual uploaded media, but keep the directory via .gitkeep)
+/src/main/webapp/images/uploads/*
+!/src/main/webapp/images/uploads/.gitkeep
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
