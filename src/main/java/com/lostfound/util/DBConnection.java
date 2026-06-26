@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DBConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/lostfound_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
-    private static final String USER = "wtuser";
+    private static final String USER = "user";
     private static final String PASSWORD = "pass"; 
 
     public static Connection getConnection() throws SQLException {
